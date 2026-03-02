@@ -16,9 +16,6 @@ use Spryker\Client\SecurityBlockerMerchantPortal\Expander\MerchantPortalConfigur
  */
 class SecurityBlockerMerchantPortalFactory extends AbstractFactory
 {
-    /**
-     * @return \Spryker\Client\SecurityBlockerMerchantPortal\Expander\MerchantPortalConfigurationSettingsExpanderInterface
-     */
     public function createMerchantPortalConfigurationSettingsExpander(): MerchantPortalConfigurationSettingsExpanderInterface
     {
         return new MerchantPortalConfigurationSettingsExpander(
